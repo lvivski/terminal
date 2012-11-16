@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+
+body {
+  font: 62.5%/1.5 monospace;
+  color: #ccc;
+  word-spacing: 0.1em;
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+  background: #111;
+}
+
+#terminal {
+  font-size: 2.5em;
+  overflow-y: scroll;
+}
+
+#input {
+  font-size: 1em;
+  border: 0;
+  font-family: monospace;
+  background:transparent;
+  color: #ccc;
+  width: 90%;
+}
+
+#wrapper {
+  margin-left: 1.6em;
+}
+
+#wrapper:before {
+  content: '$>';
+  position: absolute;
+  display: block;
+  width: 1em;
+  height: 1em;
+  color: orange;
+  font-weight: bold;
+}
+
+#input:focus {
+  outline: 0;
+}
+
+.dim {
+  color: #333;
+}
