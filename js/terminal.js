@@ -200,7 +200,7 @@
           args.splice(~index, 1)
           recursive = true
         }
-        rm(swd_, args, recursive, read)
+        rm(cwd_, args, recursive, read)
         break
       case 'mv':
         mv(cwd_, args[0], args[1], read)
